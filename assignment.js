@@ -9,8 +9,19 @@ function kilometerToMeter(km){
 var count = kilometerToMeter(5);
 console.log(count);
 
+
 //Problem: 2
-function budgetCalculator()
+function budgetCalculator(w,p,l){
+    var cost = 0;
+    var watch = 50*w;
+    var phone = 100*p;
+    var laptop = 500*l;
+    cost = watch+phone+laptop;
+    return cost;
+}
+var totalcost = budgetCalculator(1,3,5);
+console.log(totalcost);
+
 
 //Problem: 3
 function hotelCost(night){
